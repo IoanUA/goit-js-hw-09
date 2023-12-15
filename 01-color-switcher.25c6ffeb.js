@@ -1,0 +1,2 @@
+const t=document.querySelector("[data-start]"),e=document.querySelector("[data-stop]"),o=document.querySelector("body");t.addEventListener("click",(function e(){timerId=setInterval((()=>{const t=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,0)}`;o.style.backgroundColor=t,console.log("dawda")}),1e3),t.removeEventListener("click",e)})),e.addEventListener("click",(function(){clearInterval(timerId)}));
+//# sourceMappingURL=01-color-switcher.25c6ffeb.js.map
